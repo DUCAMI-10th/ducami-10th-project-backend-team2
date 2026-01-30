@@ -13,5 +13,6 @@ public class IntroApplication {
 		SpringApplication app = new SpringApplication(IntroApplication.class);
 		app.addInitializers(new DotenvConfig());
 		app.run(args);
+		System.out.println("Hello Ducami Intro!");
 	}
 }
