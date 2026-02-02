@@ -10,10 +10,10 @@ public record NoticeResponse(
         @Schema(description = "공지사항 ID", example = "1")
         Long id,
 
-        @Schema(description = "공지사항 제목", example = "2025년 신입 부원 모집 안내")
+        @Schema(description = "공지사항 제목", example = "2026년 신입 부원 모집 안내")
         String title,
 
-        @Schema(description = "공지사항 내용", example = "2025년 1학기 신입 부원을 모집합니다...")
+        @Schema(description = "공지사항 내용", example = "2026년 1학기 신입 부원을 모집합니다...")
         String content,
 
         @Schema(description = "작성자", example = "관리자")

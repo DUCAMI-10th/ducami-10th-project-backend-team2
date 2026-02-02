@@ -18,10 +18,7 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("동아리 소개 API")
                         .description("교육 봉사 동아리 웹사이트 백엔드 API 문서")
-                        .version("1.0.0")
-                        .contact(new Contact()
-                                .name("DUCAMI")
-                                .email("contact@ducami.com")))
+                        .version("1.0.0"))
                 .servers(List.of(
                         new Server()
                                 .url("https://wilily-noncrystallized-deb.ngrok-free.dev")
